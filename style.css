@@ -1,0 +1,59 @@
+@import url("reset.css");
+
+body{
+    background:#ddd;
+}
+
+.s-slider .showing{
+    z-index:1;
+}
+
+.s-slider{
+    position:relative;
+    /* overflow:hidden; */
+    height:500px;
+}
+
+.s-slider li{
+    position:absolute;
+    top:0;
+    z-index:0;
+    width:100%;
+    height:500px;
+    color:#fff;
+    font-size:50px;
+    font-weight:bold;
+    text-align:center;
+    line-height:500px;
+}
+
+.s-slider li:nth-child(1){
+    background:#aaa;
+}
+.s-slider li:nth-child(2){
+    background:green;
+}
+.s-slider li:nth-child(3){
+    background:purple;
+}
+.s-slider li:nth-child(4){
+    background:saddlebrown;
+}
+
+.controls button{
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    font-size:50px;
+    z-index:5;
+}
+
+.controls .prev{
+    left:40px;
+}
+
+.controls .next{
+    left:unset;
+    right:40px;
+}
