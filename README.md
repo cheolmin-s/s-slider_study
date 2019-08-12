@@ -1,3 +1,3 @@
-## s-slider_study
+# S-SLIDER
 
-# Options to add : "swiper", "paging"
+### Options to add : "swiper", "paging"
